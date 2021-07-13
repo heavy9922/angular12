@@ -1,0 +1,7 @@
+<section class="products">
+  <app-product
+    (addToCardClick)="addTocard($event)"
+    [row]="row"
+    *ngFor="let row of products"
+  ></app-product>
+</section>
